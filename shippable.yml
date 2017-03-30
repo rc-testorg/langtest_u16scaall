@@ -15,21 +15,7 @@ jdk:
   - openjdk7
   - oraclejdk7
   - oraclejdk8
-services:
-  #- cassandra 
-  - elasticsearch 
-  #- memcached 
-  #- mongodb 
-  #- mysql 
-  #- neo4j 
-  #- postgres 
-  #- rabbitmq 
-  #- redis 
-  #- selenium
-  - sqlite 
-  #- couchdb 
-  #- rethinkdb 
-  #- riak 
+
     
 build:
 
