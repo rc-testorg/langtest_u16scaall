@@ -3,23 +3,18 @@ language: scala
 
 #version number
 scala:
-    - 2.11.0
-    - 2.9.3
-    - 2.10.5
-    - 2.10.6
-    - 2.11.8
-    - 2.12.0
-    - 2.12.1
-    - 2.11.11
-    - 2.12.2
-    
+    - 2.9
+    - 2.10
+    - 2.11
+    - 2.12    
 
-jdk: 
+jdk:
   - openjdk7
-  - oraclejdk7
+  - openjdk8
+  - openjdk9
   - oraclejdk8
-
-    
+  - oraclejdk9
+  
 build:
 
   pre_ci_boot:
