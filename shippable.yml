@@ -16,7 +16,6 @@ jdk:
   - openjdk7
   - oraclejdk7
   - oraclejdk8
-
     
 build:
 
@@ -28,5 +27,3 @@ build:
   ci:
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
-    
-    
